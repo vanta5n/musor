@@ -55,7 +55,9 @@ class Item:
             return "\033[33m[5]\033[0m"
         if self.n == 6:
             return "\033[34m[6]\033[0m"
-        return "\033[35m[1]\033[0m"
+        if self.n == 7:
+            return "\033[35m[7]\033[0m"
+        return "\033[35m[8]\033[0m"
 
     def get_n(self):
         if self.n:
