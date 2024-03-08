@@ -148,3 +148,4 @@ for q in range(size):
     print(q, *field[q])
 
 print('\n\033[32m\033[1mSuccess!!\033[0m')
+
