@@ -1,0 +1,3 @@
+WIDTH, HEIGHT = 1200, 800
+N, M = 30, 20
+BOMBS = 52
